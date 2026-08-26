@@ -1,5 +1,7 @@
+import LandingPage from "@/components/templates/landingPage";
+
 export default function Home() {
   return (
-    <div>hesam khaki</div>
+    <LandingPage />
   );
 }

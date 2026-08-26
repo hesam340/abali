@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { subMenuTitles } from "@/core/constants/headerConstants";
+import { subMenuTitles } from "@/core/constants/landing";
 
 function Menu() {
   return (
