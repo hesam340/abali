@@ -5,8 +5,6 @@ import { useState } from "react";
 
 import { productsCarousel } from "@/core/constants/headerConstants";
 
-import "swiper/css";
-
 function HeaderCarousel() {
 const [items, setItems] = useState(productsCarousel);
 
@@ -57,13 +55,10 @@ return (
               <span className="text-[16px] font-bold text-(--color-primary)">
                 {product.title}
               </span>
-
               <span className="text-[12px] text-(--color-primary) whitespace-nowrap">
                 {product.subtitle}
               </span>
             </span>
-
-            {/* Arrow */}
             <span className={`flex size-8 font-black items-center justify-center absolute top-0 rounded-full bg-[#F5F5F5] text-(--color-primary) ring-8 ring-(--color-secondary) ${index === 0 ? "right-0" : "left-0"}`}>
               {index === 0 ? "→" : "←"}
             </span>
