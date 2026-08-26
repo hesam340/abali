@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function VariousDrinks() {
   return (
-    <section className="container relative w-full px-4 mx-auto mt-10 lg:mt-15 bg-[#F8F8F8] pt-17 lg:pt-35 pb-8 lg:pb-20 z-0">
+    <section className="container relative w-full px-4 mx-auto mt-10 lg:mt-15 bg-[#F8F8F8] pt-17 lg:pt-35 pb-11 lg:pb-20 z-0">
       <div className="*:w-30 *:lg:w-41.25 *:h-11 *:lg:h-15.5 *:leading-11 *:lg:leading-15.5 *:text-[16px] *:lg:text-[24px] *:font-bold *:lg:font-extrabold flex items-center justify-center gap-x-8 lg:gap-x-18 *:rounded-[10px] *:cursor-pointer">
         <button className="bg-(--color-primary) text-white">گاز دار</button>
         <button className="bg-[#DDE7F0] text-(--color-primary)">

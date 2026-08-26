@@ -49,3 +49,9 @@ export const landingFeatures = [
       "محصول دوغ آبعلی را در جای خشک و خنک ، دور از تابش مستقیم خورشید نگهداری کنید.بدین ترتیب طول عمر نگهداری آن بیشتر شود.",
   },
 ];
+
+export const landingSatisfaction = [
+  { id: 0, number: "۹۱٪", content: "رضایت مصرف کننده" },
+  { id: 1, number: "۱۰۰٪", content: "موجود در سراسر کشور" },
+  { id: 2, number: "۳۱", content: "سال اعتبار در کنار شما" },
+];
