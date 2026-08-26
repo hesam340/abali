@@ -20,7 +20,7 @@ export const productsCarousel = [
   },
   {
     id: 2,
-    image: "/img/glass-dough.webp",
+    image: "/img/family-dough.webp",
     title: "شیشه‌ای",
     subtitle: "۱۵۰ میلی‌لیتر",
   },
