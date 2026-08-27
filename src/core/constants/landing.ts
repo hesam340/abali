@@ -55,3 +55,32 @@ export const landingSatisfaction = [
   { id: 1, number: "۱۰۰٪", content: "موجود در سراسر کشور" },
   { id: 2, number: "۳۱", content: "سال اعتبار در کنار شما" },
 ];
+
+export const landingComments = [
+  {
+    id: 0,
+    title: "توی یک ظهر گرم تابستونی..",
+    comment: "دوغ آبعلی توی یک ظهر گرم تابستونی خیلی میچسبه !",
+    image: "/img/south-image.webp",
+    locationImage: "/img/south.webp",
+    locationName:"جنوب"
+  },
+  {
+    id: 1,
+    title: "من عاشق دوغ آبعلی ام !",
+    comment:
+      "دوغ آبعلی من رو به خاطرات دوران کودیک میبره و هر بار از خوردن این نوشیدنی لذت میبرم",
+    image: "/img/west-image.webp",
+    locationImage: "/img/west.webp",
+    locationName:"غرب"
+  },
+  {
+    id: 2,
+    title: "من برای سلامتم دوغ میخورم!",
+    comment:
+      "برای منی که ورزش میکنم و از خوردن نوشیدنی های قندی پرهیز میکنم دوغ آبعلی جذاب ترین گزینه اس",
+    image: "/img/north-image.webp",
+    locationImage: "/img/north.webp",
+    locationName:"شمال"
+  },
+];

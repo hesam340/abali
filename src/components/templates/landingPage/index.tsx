@@ -1,4 +1,5 @@
 import Clip from "@/components/templates/landingPage/clip";
+import Comments from "@/components/templates/landingPage/comments";
 import Originality from "@/components/templates/landingPage/originality";
 import Satisfaction from "@/components/templates/landingPage/satisfaction";
 import VariousDrinks from "@/components/templates/landingPage/variousDrinks";
@@ -12,6 +13,7 @@ function LandingPage() {
       <VariousDrinks />
       <Satisfaction />
       <Originality />
+      <Comments />
     </>
   );
 }

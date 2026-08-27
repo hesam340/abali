@@ -75,7 +75,6 @@ function ProductFeatures() {
             <button
               key={item.id}
               type="button"
-              aria-label={`نمایش ویژگی ${index + 1}`}
               onClick={() => setActiveIndex(index)}
               className={`w-1.5 cursor-pointer rounded-[7px] transition-all duration-500 lg:w-2
                 ${

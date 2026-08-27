@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Originality() {
   return (
-    <div className="container mt-20 px-4 mx-auto flex flex-col items-center max-lg:gap-y-10 lg:flex-row-reverse lg:gap-x-12">
+    <section className="container mt-20 px-4 mx-auto flex flex-col items-center max-lg:gap-y-10 lg:flex-row-reverse lg:gap-x-12">
       <div className="flex flex-col items-center w-[50%]">
         <h2 className="text-[#0E0E0E] text-[26px] xl:text-[50px] font-bold xl:font-black whitespace-nowrap">
           دوغ آبعلی، همون همیشگی!
@@ -35,7 +35,7 @@ function Originality() {
           </span>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

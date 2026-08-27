@@ -1,16 +1,13 @@
-import { ReactNode } from "react";
+import { Dispatch, ReactNode, SetStateAction } from "react";
 
 export type TChildren = { children: ReactNode };
 
-//components
-//ui
+//-----------------components
+//------templates
 
-export type TButton = {
-  isLoading?: boolean;
-  title: string;
-  width: string;
-  height: string;
-  color: string;
-  fontSize: string;
-  type: "button" | "submit" | "reset" | undefined;
+export type TTexts = {
+  activeIndex: number;
+  setActiveIndex: Dispatch<SetStateAction<number>>;
 };
+
+export type TIranMap = Omit<TTexts, "setActiveIndex">;
