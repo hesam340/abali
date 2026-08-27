@@ -48,7 +48,7 @@ function VariousDrinks() {
                   -top-8 xl:-top-14 group-hover:-translate-y-24
                 `}
               />
-              <div className="absolute inset-x-0 -bottom-12 lg:-bottom-24 z-30 h-12 lg:h-24 bg-[#F8F8F8]" />
+              <div className="absolute inset-x-0 -bottom-12 lg:-bottom-24 z-30 h-12 lg:h-24 bg-[#F8F8F8] pointer-events-none" />
             </div>
           ))}
         </div>
