@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import Icon from "@/components/ui/Icon";
 import { productsCarousel } from "@/core/constants/landing";
 
 function VariousDrinks() {
@@ -23,12 +24,9 @@ function VariousDrinks() {
             >
               <div className="absolute inset-0 rounded-[50px] bg-[#4383C426] group-hover:bg-(--color-primary)" />
               <button className="absolute bottom-5 left-5 hidden group-hover:flex hover:cursor-pointer bg-white size-17.5 leading-17.5 items-center justify-center rounded-[25px]">
-                <Image
-                  src="/svg/cart.svg"
-                  width={50}
-                  height={50}
-                  className="size-7"
-                  alt="cart-icon"
+                <Icon
+                  name="cart"
+                  className="fill-(--color-primary) stroke-none size-7"
                 />
               </button>
               <p className="absolute bottom-5 right-5 hidden group-hover:flex bg-white w-45 h-17.5 leading-17.5 items-center justify-center rounded-[25px] text-[24px] font-bold text-(--color-primary) z-40">

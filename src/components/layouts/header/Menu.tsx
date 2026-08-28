@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
+import Icon from "@/components/ui/Icon";
 import { subMenuTitles } from "@/core/constants/landing";
 
 function Menu() {
@@ -11,13 +12,9 @@ function Menu() {
           <div className="bg-white h-22 flex items-center justify-between rounded-b-[25px] px-5 relative z-50">
             {" "}
             <button className="cursor-pointer">
-              <Image
-                src="/svg/hamburger.svg"
-                loading="eager"
-                width={200}
-                height={200}
-                className="w-6.25"
-                alt="hamburger-icon"
+              <Icon
+                name="hamburger"
+                className="fill-(--color-primary) stroke-none w-6.25"
               />
             </button>
             <Image
@@ -33,13 +30,9 @@ function Menu() {
                 href="#"
                 className="bg-[#F0F0F0] rounded-[5px] size-7 lg:size-9.5 flex items-center justify-center"
               >
-                <Image
-                  src="/svg/cart.svg"
-                  loading="eager"
-                  width={50}
-                  height={50}
-                  className="size-5 lg:size-6"
-                  alt="cart-icon"
+                <Icon
+                  name="cart"
+                  className="fill-(--color-primary) stroke-none size-5 lg:size-6"
                 />
               </Link>
               <Link
@@ -49,13 +42,9 @@ function Menu() {
                 <span className="hidden font-bold lg:block">
                   ثبت نام و ورود
                 </span>
-                <Image
-                  src="/svg/profile.svg"
-                  loading="eager"
-                  width={50}
-                  height={50}
-                  className="size-4 lg:size-5"
-                  alt="profile-icon"
+                <Icon
+                  name="profile"
+                  className="fill-white stroke-none size-4 lg:size-5"
                 />
               </Link>
             </div>

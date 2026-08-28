@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
+import Icon from "@/components/ui/Icon";
 import { TTexts } from "@/core/types/types";
 import { landingComments } from "@/core/constants/landing";
 
@@ -43,23 +44,17 @@ function Texts({ activeIndex, setActiveIndex = () => {} }: TTexts) {
               </div>
             </div>
           </div>
-          <div className="absolute -bottom-19 left-1/2 -translate-x-1/2 *:size-13.75 flex gap-x-10 *:flex *:justify-center *:items-center *:bg-(--color-secondary) *:rounded-full">
+          <div className="absolute -bottom-19 left-1/2 -translate-x-1/2 *:size-13.75 flex gap-x-10 *:flex *:justify-center *:items-center *:bg-(--color-secondary) *:rounded-full *:cursor-pointer">
             <button onClick={() => handleNext()}>
-              <Image
-                src="/svg/arrow-down.svg"
-                width={50}
-                height={50}
-                className="w-3 h-4.5"
-                alt="arrow"
+              <Icon
+                name="arrow-comments"
+                className="w-3 h-4.5 fill-white stroke-none"
               />
             </button>
-            <button className="rotate-180" onClick={() => handlePrev()}>
-              <Image
-                src="/svg/arrow-down.svg"
-                width={50}
-                height={50}
-                className="w-3 h-4.5"
-                alt="arrow"
+            <button onClick={() => handlePrev()}>
+              <Icon
+                name="arrow-comments"
+                className="w-3 h-4.5 fill-white stroke-none rotate-180"
               />
             </button>
           </div>

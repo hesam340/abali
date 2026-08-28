@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
+import Icon from "@/components/ui/Icon";
 import { socialMedias } from "@/core/constants/footer";
 
 function Footer() {
@@ -38,12 +39,9 @@ function Footer() {
             <div className="flex flex-col items-center gap-y-4 lg:gap-y-6 lg:text-center w-full">
               <div className="flex gap-x-2.5">
                 <div className="p-1 size-7 rounded-full bg-white">
-                  <Image
-                    src="/svg/location.svg"
-                    width={50}
-                    height={50}
-                    className="w-full"
-                    alt="location-icon"
+                  <Icon
+                    name="location"
+                    className="fill-(--color-primary) stroke-none size-full"
                   />
                 </div>
                 <p className="text-white font-normal text-[12px] lg:text-[20px] whitespace-nowrap">
@@ -53,12 +51,9 @@ function Footer() {
               <div className="flex items-center gap-x-4 lg:gap-x-6">
                 {socialMedias.map((i) => (
                   <Link key={i.id} href="#">
-                    <Image
-                      src={i.icon}
-                      width={50}
-                      height={50}
-                      className="size-4 lg:size-5"
-                      alt={i.alt}
+                    <Icon
+                      name={i.name}
+                      className="fill-white stroke-none size-4 lg:size-5"
                     />
                   </Link>
                 ))}
