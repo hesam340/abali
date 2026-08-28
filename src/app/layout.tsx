@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 
 import { TChildren } from "@/core/types/types";
 import { bonyadeKoodakFaNum } from "@/core/utils/fonts";
+import Header from "@/components/layouts/header/Header";
+import Footer from "@/components/layouts/footer/Footer";
 
 import "./globals.css";
-import Header from "@/components/layouts/header/Header";
 
 export const metadata: Metadata = {
   title: "دوغ آبعلی",
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: TChildren) {
       <body className={`${bonyadeKoodakFaNum.className}`}>
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
