@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import Icon from "@/components/ui/Icon";
-import HeaderCarousel from "@/components/layouts/header/HeaderCarousel";
+import HeaderCarousel from "@/components/templates/landingPage/topPage/HeaderCarousel";
 
 function Banner() {
   return (
@@ -23,7 +23,7 @@ function Banner() {
         <p className="text-[60px] lg:text-[120px] font-bold lg:font-black text-white">
           دوغـت رو بنــــوش!
         </p>
-        <div className="mt-5 items-center justify-center hidden lg:flex absolute right-1/4">
+        <div className="mt-5 items-center justify-center hidden lg:flex absolute right-68">
           <p className="text-white">از اینجا بازش کن!</p>
           <Icon
             name="bentArrow"

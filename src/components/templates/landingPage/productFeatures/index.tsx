@@ -17,7 +17,7 @@ function ProductFeatures() {
   }, [activeIndex]);
 
   return (
-    <section className="container mx-auto mt-15 flex flex-col items-start px-4 lg:mt-30 lg:flex-row lg:items-center lg:justify-between">
+    <section className="container mx-auto mt-105 flex flex-col items-start px-4 lg:mt-220 lg:flex-row lg:items-center lg:justify-between">
       <div className="flex w-full flex-col lg:w-[40%]">
         <h3 className="w-fit rounded-[5px] bg-(--color-secondary) px-2 py-1 text-[20px] font-medium lg:text-[32px] lg:font-bold">
           ویژگی های دوغ آبعلی

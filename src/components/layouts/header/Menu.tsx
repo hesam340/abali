@@ -6,7 +6,7 @@ import { subMenuTitles } from "@/core/constants/landing";
 
 function Menu() {
   return (
-    <menu className="mx-auto sticky z-100 container w-full">
+    <menu className="mx-auto sticky top-0 left-0 z-100 container w-full">
       <div className="mx-8 md:mx-27.5">
         <div className="relative">
           <div className="bg-white h-22 flex items-center justify-between rounded-b-[25px] px-5 relative z-50">

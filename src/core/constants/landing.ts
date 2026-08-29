@@ -8,9 +8,9 @@ export const subMenuTitles = [
 export const productsCarousel = [
   {
     id: 0,
-    image: "/img/family-dough.webp",
-    title: "خانواده",
-    subtitle: "۱/۵ لیتر",
+    image: "/img/glass-dough.webp",
+    title: "شیشه‌ای",
+    subtitle: "۱۵۰ میلی‌لیتر",
   },
   {
     id: 1,
@@ -21,8 +21,8 @@ export const productsCarousel = [
   {
     id: 2,
     image: "/img/family-dough.webp",
-    title: "شیشه‌ای",
-    subtitle: "۱۵۰ میلی‌لیتر",
+    title: "خانواده",
+    subtitle: "۱/۵ لیتر",
   },
 ];
 
@@ -63,7 +63,7 @@ export const landingComments = [
     comment: "دوغ آبعلی توی یک ظهر گرم تابستونی خیلی میچسبه !",
     image: "/img/south-image.webp",
     locationImage: "/img/south.webp",
-    locationName:"جنوب"
+    locationName: "جنوب",
   },
   {
     id: 1,
@@ -72,7 +72,7 @@ export const landingComments = [
       "دوغ آبعلی من رو به خاطرات دوران کودیک میبره و هر بار از خوردن این نوشیدنی لذت میبرم",
     image: "/img/west-image.webp",
     locationImage: "/img/west.webp",
-    locationName:"غرب"
+    locationName: "غرب",
   },
   {
     id: 2,
@@ -81,6 +81,6 @@ export const landingComments = [
       "برای منی که ورزش میکنم و از خوردن نوشیدنی های قندی پرهیز میکنم دوغ آبعلی جذاب ترین گزینه اس",
     image: "/img/north-image.webp",
     locationImage: "/img/north.webp",
-    locationName:"شمال"
+    locationName: "شمال",
   },
 ];
